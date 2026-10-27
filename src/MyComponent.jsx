@@ -19,8 +19,8 @@ import React from "react"
 // }
 // export default MyComponent
 
-const MyFunctionalComp = () =>
-{
-    return <h1>Hello Skillverse </h1>
-}
-export default MyFunctionalComp
+// const MyFunctionalComp = () =>
+// {
+//     return <h1>Hello Skillverse </h1>
+// }
+// export default MyFunctionalComp
