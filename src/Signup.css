@@ -1,0 +1,78 @@
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+        * {
+            margin:1%;
+            cursor: pointer;
+          
+        }
+        body{
+              caret-color: transparent;
+        }
+       .div1
+       {
+        background-color:#0F172A;
+        border-radius: 2vmin;
+        color:white;
+        padding-bottom: 5vmin;
+       }
+       h1{
+            margin-top: 5vmin;
+            margin-bottom: 0vmin;
+            margin-right:0;
+       }
+        h2{
+            margin-top: 0%;
+            margin-bottom: 0vmin;
+        } 
+        .sider{
+            float:right;
+            margin-bottom: 0%;
+            margin-top: 0%;
+            color:#10B981;
+        }
+        input{
+            width:90vmax;
+            height:5vmin;
+            border:0.1vmin solid darkgray;
+            border-radius:1vmin;
+             caret-color: auto;
+        }
+        .create
+        {
+            width:15vmax;
+            height:5vmin;
+             border-radius:1vmin;
+             background-color: #0F172A;
+             color:white;
+             font-weight: bolder;
+        }
+        .create:hover{
+            color:#10B981;
+        }
+        #signin
+        {
+            font-weight: bolder;
+
+        }
+        input
+        {
+            width:70vmin;
+
+        }
+        .parent{
+            margin-left:30vmax;
+        }
+
+        .spin
+        {
+            display: inline-block;
+            animation: spin 2s linear infinite;
+            
+        }
+        
+        @keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+    .spin:hover   
+    
+        
