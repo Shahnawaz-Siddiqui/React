@@ -24,7 +24,7 @@ const Signup = () => {
              </form>
              </div>
               <center><button class="create" >Create Account</button></center>
-            <center><p>Already have an account?<a href="/Signin.jsx" style={{fontWeight: "bolder", textDecoration: "none"}}>Sign in</a></p></center>
+            <center><p>Already have an account?<a href="./Signin" style={{fontWeight: "bolder", textDecoration: "none"}}>Sign in</a></p></center>
              </>
      );
 
