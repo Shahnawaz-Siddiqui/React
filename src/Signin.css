@@ -1,0 +1,57 @@
+ @import url("https://www.w3schools.com/w3css/4/w3.css");
+       * {
+            margin:1%;
+            
+           
+        }
+    .div1
+    {
+        background-color:#0F172A;
+        border-radius: 8vmax;
+        font-size: 6.5vmin;
+        width:10vmin;
+        height:10vmin;
+        
+       
+
+    }
+    .parent{
+         display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    h1{
+        color:#0F172A;
+        font-weight: bolder;
+    }
+    .create
+        {
+            width:15vmax;
+            height:5vmin;
+             border-radius:1vmin;
+             background-color: #0F172A;
+             color:white;
+             font-weight: bolder;
+        }
+        .create:hover{
+            color:#10B981;
+        }
+        .heading
+        {
+            text-align: center;
+        }
+        input{
+            
+            border:0.1vmin solid darkgray;
+            border-radius:1vmin;
+             caret-color: auto;
+        }
+        .spin{
+            display: inline-block;
+        animation: spin 2s linear infinite;
+        }
+        
+        @keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
