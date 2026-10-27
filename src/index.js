@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Signup from './Signup'
-import Signin from './Signin'
+// import Signin from './Signin'
 
 
 
@@ -15,6 +15,7 @@ root.render(
     }} /> */}
     {/* <MyComponent/> */}
     <Signup/>
+    {/* <Signin/> */}
   </React.StrictMode>
 );
 
